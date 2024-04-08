@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGD - Card game dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="game_grid" id="game_grid">
+        <div class="game_box"><span style="opacity: .33;">Venligst vent...</span></div>
+    </div>
+    
+</body>
+<script type="module" src="index_db.js"></script>
+<script>
+    function goToRules(game_id) {
+        document.location.href = `./rules.html?id=${game_id}`;
+    }
+</script>
+</html>
